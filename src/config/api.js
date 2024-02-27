@@ -4,4 +4,5 @@ exports.API = {
   REGISTER: "user/register",
   USERS: "user/users",
   PROFILE: "user/profile",
+  UPLOAD: "common/upload",
 };

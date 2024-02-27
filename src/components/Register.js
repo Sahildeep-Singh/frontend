@@ -94,7 +94,7 @@ const RegistrationForm = ({ onLoginClick, setIsLogin }) => {
       formData.append("path", "profile");
 
       const response = await axios.post(
-        "http://localhost:8080/api/v1/common/upload",
+        API.API_BASE_URL + API.UPLOAD,
         formData
       );
 
